@@ -1,0 +1,6 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css";
+
+.has-bg-img
+{
+    background: url(Auto-pics/banner.jpg) no-repeat;
+}
