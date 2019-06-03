@@ -59,6 +59,7 @@ img
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px 5px;
 }
 
 #b4
@@ -74,6 +75,7 @@ img
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px 5px;
 }
 
 #b6
