@@ -4,6 +4,20 @@ body
     padding: 0px;
 }
 
+#menu
+{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#tresc
+{
+    margin-top: 100px;
+}
+
 #header
 {
     width: 100%;
@@ -11,7 +25,7 @@ body
     background-image: url("Auto-pics/banner.jpg");
 }
 
-img
+.box img
 {
     height: 300px;
     width: 300px;
@@ -79,6 +93,51 @@ img
 }
 
 #b6
+{
+    background-image: url("Auto-pics/4.jpg");
+    background-position: center;  
+}
+
+#b7
+{
+    background-image: url("Auto-pics/1.jpg");
+    background-position: center;
+
+}
+
+#b8
+{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#b9
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+#b10
+{
+    background: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#b11
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+#b12
 {
     background-image: url("Auto-pics/4.jpg");
     background-position: center;  
