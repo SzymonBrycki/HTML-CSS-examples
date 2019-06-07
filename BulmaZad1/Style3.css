@@ -192,12 +192,12 @@ body
 
 .p1
 {
-    flex-basis: 33%
+    /* flex-basis: 33% */
 }
 
 .p2
 {
-    flex-basis: 33%;
+    /* flex-basis: 33%; */
 }
 
 .obrazki
