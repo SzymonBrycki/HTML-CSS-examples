@@ -11,6 +11,19 @@ body
     top: 0;
     left: 0;
     right: 0;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 0 0 5px #000;
+}
+
+.hamburger-menu
+{
+    background: #000;
+    width: 50px;
+    height: 50px;
 }
 
 #tresc
