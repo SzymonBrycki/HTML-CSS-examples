@@ -171,12 +171,6 @@ body
 {
     display: flex;
     flex-direction: row-reverse;
-
-}
-
-#napisduzy
-{
-    border-bottom: 1px solid;
 }
 
 .dwiekolumny
@@ -187,9 +181,7 @@ body
 .tekst
 {
     flex-basis: 70%;
-    display: flex;
-    padding: 50px;
-    flex-direction: column;
+    padding: 0 50px;
 }
 
 
