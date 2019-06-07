@@ -142,3 +142,63 @@ body
     background-image: url("Auto-pics/4.jpg");
     background-position: center;  
 }
+
+#banner2
+{
+    background-image: url("Auto-pics/banner2.jpg");
+    background-position: center;
+    height: 150px;
+}
+
+#nauka
+{
+    /* margin-left: 20px;
+    margin-bottom: 50px; */
+}
+
+#tekst-obrazki
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tekst
+{
+    width: 66%;
+    height: 400px;
+}
+
+
+.tekst p
+{
+    font-size: 25px;
+}
+
+.p1
+{
+    width: 33%
+}
+
+.p2
+{
+    width: 33%;
+}
+
+.obrazki
+{
+    width: 33%;
+    height: 400px;
+}
+
+#o1
+{
+    background-image: url("Auto-pics/5.jpg");
+    background-position: center;
+}
+
+#o2
+{
+    background-image: url("Auto-pics/5.jpg");
+    background-position: center;
+}
