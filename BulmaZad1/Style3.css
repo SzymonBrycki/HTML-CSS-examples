@@ -230,3 +230,20 @@ body
     background-image: url("Auto-pics/5.jpg");
     background-position: center;
 }
+
+.obrazek-kontakt
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
+#duzyobrazek
+{
+    flex-basis: 50%;
+    background-image: url("Auto-pics/6.jpg");
+    background-position: center;
+    align-items: center;
+    height: 600px;
+}
