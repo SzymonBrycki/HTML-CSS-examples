@@ -263,4 +263,6 @@ body
 
 #kontakt-form
 {
+    flex-basis: 50%;
+    justify-content: center;
 }
