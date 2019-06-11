@@ -266,3 +266,8 @@ body
     flex-basis: 50%;
     justify-content: center;
 }
+
+.szero-input
+{
+    width: 100%;
+}
