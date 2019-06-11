@@ -1,0 +1,266 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans&display=swap'); 
+
+/* font-family: 'Anton', sans-serif; */ /* Nagłówki */
+
+/* font-family: 'Open Sans', sans-serif; */ /* Czcionka treści */
+
+
+/* FORMATOWANIE TREŚCI*/
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu
+{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 0 0 5px #000;
+}
+
+.hamburger-menu
+{
+    background: #000;
+    width: 50px;
+    height: 50px;
+}
+
+#tresc
+{
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header
+{
+    width: 100%;
+    height: 500px;
+    background-image: url("Auto-pics/banner.jpg");
+}
+
+.box img
+{
+    /* height: 350px; */
+    width: 300px;
+}
+
+#container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.box
+{
+    flex-basis: 33%;
+    /* height: 33%; /*
+    /* width: 400px; */
+    height: 400px;
+}
+
+.box p
+{
+    font-size: 25px; 
+    padding: 50px;
+}
+
+#b1
+{
+    background-image: url("Auto-pics/1.jpg");
+    background-position: center;
+
+}
+
+#b2
+{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#b3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+#b4
+{
+    background: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#b5
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+#b6
+{
+    background-image: url("Auto-pics/4.jpg");
+    background-position: center;  
+}
+
+#b7
+{
+    background-image: url("Auto-pics/1.jpg");
+    background-position: center;
+
+}
+
+#b8
+{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#b9
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+#b10
+{
+    background: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#b11
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+#b12
+{
+    background-image: url("Auto-pics/4.jpg");
+    background-position: center;  
+}
+
+#banner2
+{
+    background-image: url("Auto-pics/banner2.jpg");
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    font-family: 'Anton', sans-serif;
+}
+
+#nauka
+{
+    /* margin-left: 20px;
+    margin-bottom: 50px; */
+}
+
+#tekst-obrazki
+{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+}
+
+.to2
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.dwiekolumny
+{
+    display: flex;
+}
+
+.tekst
+{
+    flex-basis: 70%;
+    padding: 0 50px;
+}
+
+
+.tekst p
+{
+    font-size: 25px;
+}
+
+.p1
+{
+    /* flex-basis: 33% */
+}
+
+.p2
+{
+    /* flex-basis: 33%; */
+}
+
+.obrazki
+{
+    flex-basis: 30%;
+    height: 400px;
+}
+
+#o1
+{
+    background-image: url("Auto-pics/5.jpg");
+    background-position: center;
+}
+
+#o2
+{
+    background-image: url("Auto-pics/5.jpg");
+    background-position: center;
+}
+
+.obrazek-kontakt
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
+#duzyobrazek
+{
+    flex-basis: 50%;
+    background-image: url("Auto-pics/6.jpg");
+    background-position: center;
+    align-items: center;
+    height: 600px;
+}
+
+#kontakt-form
+{
+}
