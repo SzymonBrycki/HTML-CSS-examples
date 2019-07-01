@@ -39,9 +39,9 @@ body
     padding: 0 50px;
     box-shadow: 0 0 5px #000;
 }
-}
 
-#menu-btn {
+#menu-btn 
+{
     position: relative;
 }
 
