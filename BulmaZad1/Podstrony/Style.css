@@ -23,15 +23,17 @@ body
     left: 0;
     right: 0;
     background: rgba(255,255,255,0.9);
-	text-align: center;
-	flex-direction: row;
+	/* text-align: center; */
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 	font-size: 200%;
+	/* hite-space: pre-wrap; */
+	/* align-content: space-around; */
 }
 
-a:hover
+:hover
 {
 	background-color: black;
 	color: white;
