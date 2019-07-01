@@ -6,16 +6,36 @@
         <meta charset="UTF-8">
         <title>Samochody</title>
         <link rel="Stylesheet" href="Style.css">
+		
+		<script>
+        var menu = document.getElementById('page-menu');
+        menu.style.display = "none";
+
+        function toggleMenu() {
+            
+            if (menu.style.display == "none") 
+			{
+                menu.style.display = "block";
+            } 
+			else 
+			{
+                menu.style.display = "none";
+            }
+        }
+		</script>
     </head>
 
     <body>
 
         <!-- MENU -->
 
-        <div id="menu">
-            <img src="Auto-pics/logo.png" height="100" width="100">\
-            <a href="#"><div class="hamburger-menu"></div></a>
-        </div>
+		<div id="page-menu">
+		</div>
+
+		<div id="menu">
+            <img src="Auto-pics/logo.png" height="100" width="100">
+            <a href="#" onclick="toggleMenu()" id="menu-btn"><div class="hamburger-menu"></div></a>
+		</div>
 
         <!-- TREŚĆ-->
 
